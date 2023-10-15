@@ -14,7 +14,7 @@ endif
 CCFLAGS = -Wall -std=c11
 CXXFLAGS = -Wall -std=c++11
 
-OBJECTS = main.o
+OBJECTS = main.o edge.o vertex.o
 
 EXEC = graphs
 
