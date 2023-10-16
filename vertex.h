@@ -7,6 +7,7 @@
 class Vertex {
 public:
   Vertex(std::string _label);
+  std::string getLabel() const;
 
 private:
   std::string label;

@@ -1,4 +1,7 @@
+#include "edge.h"
+#include "graph.h"
 #include "graphMatrixBuilder.h"
+#include "vertex.h"
 
 int main() {
 
@@ -13,5 +16,6 @@ int main() {
     std::cout << std::endl;
   }
 
+  Graph *graph = new Graph(graphMatrix);
   return 0;
 }
